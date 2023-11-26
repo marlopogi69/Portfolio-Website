@@ -32,6 +32,52 @@ main{
 h1{
     font-family: serif;
 }
+
+h2{
+    font-family: serif;
+}
+@media (max-width: 1000px) {
+    h1{
+        font-size: 200%
+        !important;
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+}
+@media (max-width: 912px) {
+    h6{
+    
+        margin-bottom: 50%
+        !important;
+        
+    }
+  
+}
+@media (max-width: 600px) {
+    h6{
+    
+        margin-bottom: 165%
+        !important;
+    }
+    
+}
+@media (max-width: 412px) {
+    h6{
+    
+        margin-bottom: 250%
+        !important;
+    }
+    
+}
+@media (max-width: 280px) {
+    h6{
+    
+        margin-bottom: 450%
+        !important;
+    }
+    
+}
 .img{
     background-position: center center;
     background-size: cover;
