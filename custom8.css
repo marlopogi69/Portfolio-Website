@@ -1,0 +1,117 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.navvy{
+    background-color: #29ADB2;
+}
+.navbar-collapse{
+   color: red;
+}
+    
+.navbar-light,
+.navbar-toggler{
+    border-color: red;
+    color: red;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+h1{
+    font-family: serif;
+}
+.img{
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
+}
+.card-img-top{
+    width: 100;
+    height: 40vh;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; 
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.btn-outline-dark{
+    background-color: #29ADB2;
+}
+.btn-outline-dark:hover{
+    background-color: #1AACAC;
+    color: white;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+
+
+.color-overlay{
+    background-color: rgba(0,0,0,0,4);
+    min-height: 60vh;
+}
+
+.carpe-diem{
+    font-size: 12vw;
+    letter-spacing: 3px;
+    opacity: 2;
+}
+
+@media(max-width: 768px){
+    .color-overlay{
+        min-height: 30vh;
+    }
+    
+}
+
+.color-overlay h1{
+    color: white;
+    margin: auto;
+    
+}
+
+.singleCol{
+   max-width: 750px; 
+}
+
+.panget{
+    filter:contrast(1);
+}
+
+
+footer{
+    background-color: #1AACAC;
+}
+
+footer a{
+    color: white;
+}
+
+footer a .bi-facebook:hover{
+    color: blue;
+}
+
+footer a .bi-github:hover{
+    color: black;
+}
+
+
